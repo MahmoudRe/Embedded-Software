@@ -1,5 +1,5 @@
 CC      = gcc
-CFLAGS  += -std=c99 -g -Wall
+CFLAGS  += -std=c99 -g -Og -Wall
 CPPFLAGS+= -I.
 
 SOURCES := $(wildcard buggy[1-5].c)
